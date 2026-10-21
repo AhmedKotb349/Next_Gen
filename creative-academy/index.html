@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative Academy offers courses in web development, UI/UX design and data science.">
+    <title>Creative Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar" aria-label="Main navigation">
+            <h2 class="logo">Creative <span>Academy</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Learn Today,<br>Build <span>Tomorrow</span></h1>
+
+                <p>
+                    Join our academy and gain the skills you need
+                    to create your dream career in technology.
+                </p>
+
+                <a href="#courses" class="btn">Get Started</a>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="courses" id="courses">
+            <h2>Our Popular Courses</h2>
+
+            <p class="section-description">
+                Explore our top courses and start your learning journey.
+            </p>
+
+            <div class="cards-container">
+
+                <!-- Card 1 -->
+                <article class="card card-one">
+                    <span class="badge">NEW</span>
+                    <h3>Web Development</h3>
+                    <p>
+                        Learn HTML, CSS and JavaScript
+                        to build amazing websites.
+                    </p>
+                    <details class="course-details">
+                        <summary class="learn-btn">
+                            <span class="label-more">Learn More</span>
+                            <span class="label-less">Show Less</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </summary>
+                        <ul>
+                            <li>HTML, CSS and JavaScript basics</li>
+                            <li>Responsive layouts</li>
+                            <li>Build 3 real projects</li>
+                        </ul>
+                    </details>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="card card-two">
+                    <h3>UI/UX Design</h3>
+                    <p>
+                        Discover how to create beautiful
+                        and user-friendly interfaces.
+                    </p>
+                    <details class="course-details">
+                        <summary class="learn-btn">
+                            <span class="label-more">Learn More</span>
+                            <span class="label-less">Show Less</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </summary>
+                        <ul>
+                            <li>User research and personas</li>
+                            <li>Wireframes and prototypes</li>
+                            <li>Usability testing</li>
+                        </ul>
+                    </details>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="card card-three">
+                    <h3>Data Science</h3>
+                    <p>
+                        Turn data into useful insights
+                        and make better decisions.
+                    </p>
+                    <details class="course-details">
+                        <summary class="learn-btn">
+                            <span class="label-more">Learn More</span>
+                            <span class="label-less">Show Less</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </summary>
+                        <ul>
+                            <li>Python and data cleaning</li>
+                            <li>Charts and dashboards</li>
+                            <li>Intro to machine learning</li>
+                        </ul>
+                    </details>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="about">
+        <h3>Creative <span>Academy</span></h3>
+        <p>Learn new skills. Build your future.</p>
+    </footer>
+
+</body>
+</html>
